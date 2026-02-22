@@ -13,7 +13,7 @@ Add the marketplace:
 Install the security plugin:
 
 ```
-/plugin install security-code-audit@agent-skills
+/plugin install security-code-audit@mfakbar127-skills
 ```
 
 ## Available Plugins
