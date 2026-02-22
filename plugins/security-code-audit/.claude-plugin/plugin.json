@@ -1,0 +1,8 @@
+{
+  "name": "security-code-audit",
+  "version": "0.1.0",
+  "description": "Security-focused code review toolkit using grepai semantic search. Provides vulnerability scanning, data flow analysis, and security Q&A capabilities.",
+  "author": {
+    "name": "Muh. Fani Rama Akbar"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "agent-skills",
+  "owner": {
+    "name": "Muh. Fani Rama Akbar"
+  },
+  "metadata": {
+    "description": "Security and productivity plugins for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "security-code-audit",
+      "source": "./plugins/security-code-audit",
+      "description": "Security-focused code review toolkit using grepai semantic search",
+      "version": "0.1.0",
+      "author": {
+        "name": "Muh. Fani Rama Akbar"
+      },
+      "keywords": ["security", "code-review", "vulnerability", "audit"],
+      "category": "security"
+    }
+  ]
+}
