@@ -1,6 +1,6 @@
 ---
 name: security-code-audit-setup
-description: Set up and verify the security review system. Checks grepai installation, Ollama for local embeddings, and initializes the security index.
+description: Set up and verify the security review system. Checks grepai installation, Ollama for local embeddings.
 allowed-tools: Bash(which *), Bash(uname *), Bash(curl *), Bash(brew *), Bash(ollama *), Bash(grepai *), Bash(pgrep *), Bash(lsof *), Bash(ls *), Read
 ---
 
@@ -72,7 +72,6 @@ After running all checks, report:
 | grepai | ✅/❌ | version X.Y.Z or "not installed" |
 | Ollama | ✅/❌/⚠️ | running/not installed/not running |
 | Embedding Model | ✅/❌ | nomic-embed-text available |
-| Project Index | ✅/❌ | .grepai/ initialized |
 
 **Next Steps:**
 - [any required actions]
@@ -92,11 +91,6 @@ After running all checks, report:
 ### Embedding model not found
 - Pull model: `ollama pull nomic-embed-text`
 - List models: `ollama list`
-
-### Index not building
-- Check `.grepai/` exists: `ls -la .grepai/`
-- Re-initialize: `grepai init`
-- Manual index: `grepai index`
 
 ## Quick Commands Reference
 
