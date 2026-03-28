@@ -1,0 +1,18 @@
+{
+  "name": "python-dependency-threat-scan",
+  "version": "1.0.0",
+  "description": "Python supply chain security scanner for detecting malicious packages, typosquatting, and persistence mechanisms through static analysis and system inspection.",
+  "author": {
+    "name": "Muh. Fani Rama Akbar"
+  },
+  "keywords": [
+    "security",
+    "supply-chain",
+    "python",
+    "malware-detection",
+    "dependency-scanning",
+    "threat-hunting",
+    "typosquatting",
+    "ioc-detection"
+  ]
+}

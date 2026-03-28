@@ -18,6 +18,17 @@
       },
       "keywords": ["security", "code-review", "vulnerability", "audit"],
       "category": "security"
+    },
+    {
+      "name": "python-dependency-threat-scan",
+      "source": "./plugins/python-dependency-threat-scan",
+      "description": "Python supply chain security scanner for detecting malicious packages, typosquatting, and persistence mechanisms through static analysis and system inspection",
+      "version": "1.0.0",
+      "author": {
+        "name": "Muh. Fani Rama Akbar"
+      },
+      "keywords": ["security", "supply-chain", "python", "malware-detection", "dependency-scanning", "threat-hunting", "typosquatting", "ioc-detection"],
+      "category": "security"
     }
   ]
 }
