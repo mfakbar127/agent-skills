@@ -29,6 +29,17 @@
       },
       "keywords": ["security", "supply-chain", "python", "malware-detection", "dependency-scanning", "threat-hunting", "typosquatting", "ioc-detection"],
       "category": "security"
+    },
+    {
+      "name": "openapi-security-test",
+      "source": "./plugins/openapi-security-test",
+      "description": "End-to-end OpenAPI security testing pipeline covering all OWASP API Top 10 2023 categories. Generates and runs Gherkin or Hurl test suites from any OpenAPI/Swagger spec.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Muh. Fani Rama Akbar"
+      },
+      "keywords": ["security", "openapi", "owasp", "api-security", "penetration-testing", "gherkin", "hurl", "vulnerability-scanning"],
+      "category": "security"
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "name": "openapi-security-test",
+  "version": "1.0.0",
+  "description": "End-to-end OpenAPI security testing pipeline covering all OWASP API Top 10 2023 categories. Generates and runs Gherkin or Hurl test suites from any OpenAPI/Swagger spec.",
+  "author": {
+    "name": "Muh. Fani Rama Akbar"
+  },
+  "keywords": [
+    "security",
+    "openapi",
+    "owasp",
+    "api-security",
+    "penetration-testing",
+    "gherkin",
+    "hurl",
+    "vulnerability-scanning"
+  ]
+}
